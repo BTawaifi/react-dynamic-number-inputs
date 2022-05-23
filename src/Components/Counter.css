@@ -1,0 +1,35 @@
+.Counter-Container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.Counter {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 0.5em;
+}
+.Counter-Text {
+  font-size: 15vw;
+  text-align: center;
+}
+
+.Counter-Text:focus {
+  background-color: red;
+  color: white;
+  caret-color: rgba(1, 1, 1, 0);
+}
+
+.Counter-Text::selection {
+  background-color: red;
+  color: white;
+}
+
+.Counter-Title {
+  margin: 0;
+}
